@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.16)
+project(Lab1 LANGUAGES C)
+add_executable(Lab1
+    main2.c
+    ui.c
+    fieldinfo/fieldinfo.c
+    person/person.c
+    robot/robot.c
+    test/test.c
+    dynamicArray/dynamicArray.c
+)
